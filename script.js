@@ -1,10 +1,45 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2822
-\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+}
 
-\f0\fs24 \cf0 // Optional: Add simple animations, dark mode toggle, etc.\
-console.log("Portfolio loaded!");\
+.hero {
+  text-align: center;
+  background: #f4f4f4;
+  padding: 40px 20px;
+}
+
+.profile {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+h1, h2, h3 {
+  margin-bottom: 10px;
+}
+
+section {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.job {
+  margin-bottom: 20px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+footer {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 15px;
+  margin-top: 20px;
 }
